@@ -48,7 +48,7 @@ switch(diaSemana)
 
 console.log(`agora sao ${hora} horas.`)
 
-if(hora < 12)
+if(hora < 12 && hora > 5)
 {
     console.log('bom dia!')
 }
